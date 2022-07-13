@@ -6,6 +6,9 @@ let suma = "";
 
 do{
     let numero = parseInt(prompt('Ingresar un numero'))
+    console.log(numero);
+    console.log(suma);
+
     if(suma == ""){
         suma = suma + numero;
     }
