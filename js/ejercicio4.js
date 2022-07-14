@@ -10,13 +10,16 @@ do{
     console.log(suma);
 
     if(suma == ""){
-        suma = suma + numero;
+        suma = numero + suma;
     }
-    else{
-        if(numero !== numero){
+    else if(numero !== numero){
             alert( 'No es un numero valido');
+        } else if (sumas= parseInt(suma) + parseInt(numero)){
+            document.write(sumas)
         }
-    }
 } while(confirm('ingresar otro numero'));
-document.write(suma)
+console.log(sumas)
+
+
+
 
