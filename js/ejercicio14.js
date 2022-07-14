@@ -1,7 +1,5 @@
-/*let texto = prompt('Ingresar un texto hasta 20 caracteres');
-console.log(texto)
-console.log(texto.substring(0,1))
+let frase = prompt('Ingresar un texto ');
 
-for( let frase=texto; frase==''; frase.substring++){
-    document.write(frase.substring(0,1))
+for(let i = 0; i< frase.length; i++){
+    document.write(frase.charAt(i) + '-')
 }
